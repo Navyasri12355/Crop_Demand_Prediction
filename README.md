@@ -20,13 +20,6 @@ This Flask-based web application allows farmers to predict the **yield** and **p
 
 ---
 
-📁 File Structure
-├── app.py                # Main Flask app
-├── dataset.csv           # Dataset used for model training
-├── templates/
-│   └── index.html        # Frontend HTML form
-├── static/               # (Optional) For CSS/JS/images
-└── README.md             # This file
 ## 🛠️ How to Run Locally
 ### 1. Clone the Repository
 git clone https://github.com/your-username/crop-yield-price-predictor.git
