@@ -42,10 +42,10 @@ Ensure that dataset.csv is in the root directory and contains at least the follo
 - Visit http://127.0.0.1:5000 in your browser.
 
 ## 📦 Example Use Case
-- 1. Open the app in your browser.
-- 2. Enter a crop name (e.g., "Wheat") and your phone number.
-- 3. Click Predict.
-- 4. Get instant predictions on the screen and an SMS sent to your phone!
+1. Open the app in your browser.
+2. Enter a crop name (e.g., "Wheat") and your phone number.
+3. Click Predict.
+4. Get instant predictions on the screen and an SMS sent to your phone!
 
 ## 📌 Notes
 - Make sure the crop name exists in your dataset. The app will notify you if it doesn't.
