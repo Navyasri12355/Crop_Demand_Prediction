@@ -22,14 +22,21 @@ This Flask-based web application allows farmers to predict the **yield** and **p
 
 ## 🛠️ How to Run Locally
 ### 1. Clone the Repository
-- git clone https://github.com/your-username/crop-yield-price-predictor.git
-- cd crop-yield-price-predictor
+```bash
+git clone https://github.com/your-username/crop-yield-price-predictor.git
+cd crop-yield-price-predictor
+```
+
 ### 2. Install Dependencies
 - Make sure Python 3.7+ is installed.
-- pip install flask pandas numpy scikit-learn requests
+```bash
+pip install flask pandas numpy scikit-learn requests
+```
+
 ### 3. Add Your Fast2SMS API Key
 In app.py, replace the authorization field under headers with your actual Fast2SMS API key:
 'authorization': 'YOUR_FAST2SMS_API_KEY'
+
 ### 4. Prepare the Dataset
 Ensure that dataset.csv is in the root directory and contains at least the following columns:
 - Yield
@@ -37,9 +44,12 @@ Ensure that dataset.csv is in the root directory and contains at least the follo
 - State (categorical)
 - Crop (categorical)
 - Other relevant numerical/categorical features (these will be one-hot encoded)
+  
 ### 5. Run the Application
-- python app.py
-- Visit http://127.0.0.1:5000 in your browser.
+```bash
+python app.py
+```
+Visit http://127.0.0.1:5000 in your browser.
 
 ## 📦 Example Use Case
 1. Open the app in your browser.
